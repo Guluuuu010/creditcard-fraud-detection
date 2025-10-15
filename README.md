@@ -1,15 +1,35 @@
-# creditcard-fraud-detection
+# 💳 Credit Card Fraud Detection using Machine Learning
 
-This repository contains a credit card fraud detection project prepared for GitHub.
-It includes preprocessing, modeling, evaluation code, and a Streamlit app for demo.
+This project uses data analytics and machine learning to detect fraudulent credit-card transactions.  
+It includes data preprocessing, model training, evaluation, and a Streamlit app for real-time prediction.
 
-**Structure**
-- `data/` - placeholder for dataset (`creditcard.csv`)
-- `notebooks/` - analysis notebook (`analysis.ipynb`)
-- `src/` - reusable python modules (data_preprocessing, model_training, evaluation, utils)
-- `models/` - saved model & scaler placeholders
-- `app/` - Streamlit app (`streamlit_app.py`)
-- `requirements.txt` - python dependencies
-- `.gitignore` - common ignores
+---
 
-> Note: The `data/creditcard.csv` file is a placeholder. Replace it with your real dataset before running the notebooks or app.
+## 📊 Project Overview
+- **Dataset:** Credit Card Transactions (from Kaggle)
+- **Goal:** Detect fraudulent transactions using ML algorithms
+- **Tech Stack:** Python, Pandas, Scikit-Learn, Matplotlib, Streamlit
+
+---
+
+## 🧠 Features
+✅ Data Cleaning & Preprocessing  
+✅ Exploratory Data Analysis (EDA)  
+✅ Model Training (Logistic Regression, Random Forest)  
+✅ Evaluation Metrics (Accuracy, Precision, Recall, F1-Score, ROC-AUC)  
+✅ Streamlit Web App for live predictions  
+
+---
+
+## 🗂 Folder Structure
+credit-card-fraud-detection/ │ ├── data/                      # Dataset files ├── notebooks/                 # Jupyter notebooks ├── models/                    # Saved model and scaler ├── app.py                     # Streamlit app ├── requirements.txt           # Dependencies └── README.md                  # Project documentation
+---
+
+## ⚙️ How to Run Locally
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/credit-card-fraud-detection.git
+   cd credit-card-fraud-detection
+   pip install -r requirements.txt
+   streamlit run app.py
